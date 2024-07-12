@@ -32,13 +32,11 @@ Este proyecto proporciona un script en Python que permite compilar archivos en C
 1. Asegúrate de tener los compiladores necesarios instalados en tu sistema y accesibles desde la línea de comandos.
 2. Ejecuta el script de compilación proporcionando el archivo fuente como argumento:
     ```sh
-    python compilar.py archivo_fuente.c
+    python compilar.py
     ```
 
-   El script determinará automáticamente el tipo de archivo y utilizará el compilador adecuado.
+   Sigue las Idicaciones para compilar los archivos.
 
-## Ejemplos
-
-Compilar un archivo C:
-```sh
-python compilar.py ejemplo.c
+## Dudas
+Si tienes alguna duda sobre como utilizarlo o algun error puedes hablarme al Discord:
+```@r3b00t_net```
