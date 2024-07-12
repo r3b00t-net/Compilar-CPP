@@ -30,7 +30,7 @@ Este proyecto proporciona un script en Python que permite compilar archivos en C
 ## Uso
 
 1. Asegúrate de tener los compiladores necesarios instalados en tu sistema y accesibles desde la línea de comandos.
-2. Ejecuta el script de compilación proporcionando el archivo fuente como argumento:
+2. Ejecuta el script de compilación:
     ```sh
     python compilar.py
     ```
@@ -39,4 +39,6 @@ Este proyecto proporciona un script en Python que permite compilar archivos en C
 
 ## Dudas
 Si tienes alguna duda sobre como utilizarlo o algun error puedes hablarme al Discord:
-```@r3b00t_net```
+```sh
+@r3b00t_net
+```
