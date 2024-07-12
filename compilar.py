@@ -30,18 +30,21 @@ options = input("Ingrese su opcion: ")
 
 def compile_csharp():
     csharp = input("Ingrese el nombre del archivo: ")
-    os.system(f"mcs -out:salida.exe {csharp}")
-    print("Archivo Compilado en salida.exe")
+    csharpp = input("Ingrese el nombre del exe: ")
+    os.system(f"mcs -out:{csharpp} {csharp}")
+    print(f"Archivo Compilado: {csharpp}")
 
 def compile_c():
     c = input("Ingresa el nombre del archivo: ")
-    os.system(f"x86_64-w64-mingw32-gcc -o salida2.exe {c}")
-    print("Archivo Compilado en salida2.exe")
+    cc = input("Ingresa el nombre del exe: ")
+    os.system(f"x86_64-w64-mingw32-gcc -o {cc} {c}")
+    print(f"Archivo Compilado: {cc}")
 
 def compile_cpp():
     cpp = input("Ingresa el nombre del archivo: ")
-    os.system(f"x86_64-w64-mingw32-g++ -std=c++17 -o salida3.exe {cpp} -lstdc++fs")
-    print("Archivo Compilado en salida3.exe")
+    cpp_s = input("Ingresa el nombre del exe: ")
+    os.system(f"x86_64-w64-mingw32-g++ -std=c++17 -o {cpp_s} {cpp} -lstdc++fs")
+    print(f"Archivo Compilado: {cpp_s}")
 
 if options == '1':
     compile_csharp()
