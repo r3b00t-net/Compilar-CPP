@@ -20,11 +20,11 @@ Este proyecto proporciona un script en Python que permite compilar archivos en C
 
 1. Clona este repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/compilador-multi-lenguaje.git
+    git clone https://github.com/r3b00t-net/Compilar-CPP.git
     ```
 2. Navega al directorio del proyecto:
     ```sh
-    cd compilador-multi-lenguaje
+    cd Compilar-CPP
     ```
 
 ## Uso
